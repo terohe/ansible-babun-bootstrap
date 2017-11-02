@@ -6,7 +6,9 @@ Simple shell script to setup [Ansible](http://www.ansible.com/) within [Babun](h
 
 ## Installation
 
-* Install [Babun](http://babun.github.io/) and start a terminal.
+* Install [Babun](http://babun.github.io/).
+* Update Babun by running `%USERPROFILE%\.babun\update.bat` in Windows (seems to be needed in Nov 2017).
+* Start Babun terminal.
 * Run the following command:
 
 ```
