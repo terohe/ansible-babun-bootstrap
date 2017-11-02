@@ -44,7 +44,7 @@ if [ -f /etc/ansible-babun-bootstrap.completed ]
     pact install libyaml-devel
     pact install python-devel
     pact install python-pip
-    pip install PyYAML Jinja2 httplib2 boto awscli
+    pip2 install PyYAML Jinja2 httplib2 boto awscli
 
     #Create initial Ansible hosts inventory
     mkdir -p /etc/ansible/
